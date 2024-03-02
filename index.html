@@ -402,23 +402,23 @@ Shopify.routes.root = "/";</script>
         --page-width: 120rem;
         --page-width-margin: 0rem;
 
-        --product-card-image-padding: 0.0rem;
-        --product-card-corner-radius: 0.0rem;
-        --product-card-text-alignment: left;
-        --product-card-border-width: 0.0rem;
-        --product-card-border-opacity: 0.1;
-        --product-card-shadow-opacity: 0.0;
-        --product-card-shadow-visible: 0;
-        --product-card-shadow-horizontal-offset: 0.0rem;
-        --product-card-shadow-vertical-offset: 0.4rem;
-        --product-card-shadow-blur-radius: 0.5rem;
+        --product--image-padding: 0.0rem;
+        --product--corner-radius: 0.0rem;
+        --product--text-alignment: left;
+        --product--border-width: 0.0rem;
+        --product--border-opacity: 0.1;
+        --product--shadow-opacity: 0.0;
+        --product--shadow-visible: 0;
+        --product--shadow-horizontal-offset: 0.0rem;
+        --product--shadow-vertical-offset: 0.4rem;
+        --product--shadow-blur-radius: 0.5rem;
 
-        --collection-card-image-padding: 0.0rem;
-        --collection-card-corner-radius: 0.0rem;
-        --collection-card-text-alignment: left;
-        --collection-card-border-width: 0.0rem;
-        --collection-card-border-opacity: 0.1;
-        --collection-card-shadow-opacity: 0.0;
+        --collection--image-padding: 0.0rem;
+        --collection--corner-radius: 0.0rem;
+        --collection--text-alignment: left;
+        --collection--border-width: 0.0rem;
+        --collection--border-opacity: 0.1;
+        --collection--shadow-opacity: 0.0;
         --collection-card-shadow-visible: 0;
         --collection-card-shadow-horizontal-offset: 0.0rem;
         --collection-card-shadow-vertical-offset: 0.4rem;
@@ -1169,7 +1169,7 @@ for (var attr in meta) {
   </details>
 </details-modal>
 
-<a href="/cart" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble"><svg
+<a href="/" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble"><svg
   class="icon icon-cart-empty"
   aria-hidden="true"
   focusable="false"
